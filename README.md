@@ -1,8 +1,10 @@
 # Fullstack-Anime-Forum
 
-
+## Homepage
 ![alt tag](home.png)
+## User Log in and Sign up
 ![alt tag](log.png)
+## Theme choices
 ![alt tag](theme.png)
 
 ## How It's Made:
