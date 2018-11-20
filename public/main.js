@@ -1,5 +1,32 @@
 var thumbUp = document.getElementsByClassName("fa-thumbs-up");
 var trash = document.getElementsByClassName("fa-trash");
+let def = document.getElementById("def")
+let pink = document.getElementById("pink")
+let night = document.getElementById("night")
+let back = document.querySelector(".row")
+let cont = document.querySelector(".well")
+
+def.addEventListener("click", function(e){
+  back.style.backgroundColor = "white"
+  back.style.color = "black"
+  cont.style.backgroundColor = "black"
+  cont.style.color = "white"
+})
+
+pink.addEventListener("click", function(e){
+  back.style.backgroundColor = "rgb(196,160,206)"
+  back.style.color = "black"
+  cont.style.backgroundColor = "rgb(241,138,145)"
+  cont.style.color = "black"
+})
+
+night.addEventListener("click", function(e){
+  back.style.backgroundColor = "black"
+  back.style.color = "white"
+  cont.style.backgroundColor = "black"
+  cont.style.color = "lightgray"
+})
+
 
 Array.from(thumbUp).forEach(function(element) {
       element.addEventListener('click', function(){
